@@ -26,7 +26,22 @@ function draw() {
   
   if (x > 35 && y > 35) {
     fill(255,0,0)
-    ellipse(35,35,25,25)
+    ellipse(x,y,25,25)
+    x = x - 1
+    y = y + 1
   }
   
+  if (y > 125) {
+    fill(0,0,255)
+    ellipse(x,y,25,25)
+    x = x + 1
+    y = y - 1
   }
+  
+  if (x > 95) {
+    fill(255)
+    ellipse(x,y,25,25)
+    x = x + 1
+    y = y - 1
+  }
+}
