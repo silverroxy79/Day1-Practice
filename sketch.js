@@ -3,7 +3,6 @@ var y = -24
 
 function setup() {
   createCanvas(200,200)
-  frameRate(25)
 }
 
 function draw() {
@@ -27,6 +26,7 @@ function draw() {
   
   if (x > 35 && y > 35) {
     fill(255,0,0)
+    ellipse(35,35,25,25)
   }
   
   }
