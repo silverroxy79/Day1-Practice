@@ -19,6 +19,8 @@ function draw() {
    fill(255)
    noStroke()
   ellipse(x,y,25,25)
+    fill(0)
+  rect(0,150,50,50)
   
   x = x + 1
   y = y + 1
